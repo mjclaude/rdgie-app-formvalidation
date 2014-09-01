@@ -26,6 +26,8 @@ public class FormController {
 			return "formPage";
 		}
 		
+		//Create the page called success.jsp to verify
+		
 		m.addAttribute("message", "Successfully saved person: " + subscriber.toString());
 		return "formPage";
 	}
